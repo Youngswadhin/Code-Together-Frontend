@@ -29,7 +29,7 @@ import Footer from "@/components/common/Footer"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism"
 import FormComponent from "@/components/forms/FormComponent"
-import StarsCanvas from "@/components/StarBackground"
+
 
 const LandingPage = () => {
     const [showForm, setShowForm] = useState(false)
@@ -55,7 +55,7 @@ class App extends React.Component {
 
     return (
         <div className="flex min-h-screen flex-col items-center bg-black text-white">
-            {/* <StarsCanvas /> */}
+          
             {/* Navbar */}
             <div className="flex w-full items-center justify-between p-6">
                 <h1 className="text-2xl font-bold text-green-400">
