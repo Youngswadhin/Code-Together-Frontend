@@ -10,8 +10,6 @@
         "preview": "vite preview --host 0.0.0.0"
     },
     "dependencies": {
-        "@react-three/drei": "^10.0.7",
-        "@react-three/fiber": "^9.1.2",
         "@uiw/codemirror-extensions-color": "^4.21.21",
         "@uiw/codemirror-extensions-hyper-link": "^4.21.21",
         "@uiw/codemirror-extensions-langs": "^4.21.21",
